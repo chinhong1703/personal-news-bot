@@ -6,13 +6,13 @@ This is my personal project to experiment with the telegram bot API and deployin
 
 ## Getting Started
 
-To create a telegram bot, you first need to create one from the system by talking to the Telegram Bot called BotFather. Then you will get an API token, which you must put it into the environment variable TOKEN. 
+To create a telegram bot, you first need to create one from the system by talking to the Telegram Bot called BotFather. Then you will get an API token, which you must put it into the environment variable `TOKEN`. 
 
-Antoher env variable MODE must be selected from 2 values: `dev`, and `prod` for the 2 ways of work: development (local) and production (heroku)
+Antoher env variable `MODE` must be selected from 2 values: `dev`, and `prod` for the 2 ways of work: development (local) and production (heroku)
 
 `HEROKU_APP_NAME` is the name of your application that you have created in Heroku. 
 
-`CHAT_ID` is the ID of your telegram account that you want this bot to send the daily news to. You can obtain it by talking to @userinfobot 
+`CHAT_ID` is the ID of your telegram account that you want this bot to send the daily news to. You can obtain it by talking to [@userinfobot](https://t.me/userinfobot) on telegram
 
 Some codes are adapted from [this page](https://medium.com/python4you/creating-telegram-bot-and-deploying-it-on-heroku-471de1d96554)
 
